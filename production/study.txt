@@ -1,0 +1,22 @@
+The Myths of the Labyrinth
+
+Name: Arshya Gupta
+Subject: The Cretan Labyrinth 
+
+*----*
+
+Introduction:
+This website will exist as a game that is supposed to mimic the actual Greek Labyrinth and the user gets to travel through it and find their way out. It will be modified to not *actually* be an accurate representation of the Labyrinth but be more playable and have elements similar to that of a side-scrolling platformer game.
+
+*----*
+
+Landing Page:
+This will be an intro to the game, telling you the aim of the game and giving instructions as to what you have to do.
+
+Actual Gaming Page: 
+This will exist as a static square in the middle of the page with a world-exploratory style of the game which the user can move through (similar to any other game developed solely for the web). It will also have a scene where (if you take enough wrong moves) you end up in the same room as the Minotaur (integral part of the myths of the labyrinth) and you have to fight it to survive.
+
+Finish Page:
+If the user actually manages to finish the game, this page will be the "Game Over" page.
+
+*----*
