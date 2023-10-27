@@ -1,3 +1,198 @@
-body{
-    background: black;
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&family=Tinos:ital,wght@1,700&display=swap');
+
+body {
+    background: rgb(62, 57, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:aliceblue;
+    font-family: 'Tinos', serif;
+}
+
+.heading {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 2s ease;
+}
+
+.subheading {
+    padding: 50px;
+}
+
+.line-container {
+    padding: 50px;
+    font-family: 'Sanchez', serif;
+}
+
+.line{
+    background-color: aliceblue;
+    width: 5px;
+    height: 500px;
+    border-radius: 5px;
+    opacity: 0.8;
+    position: absolute;
+    margin: auto;
+    /* margin-left: 41.5%; */
+}
+
+.line-left-1{
+    background-color: aliceblue;
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    opacity: 0.8;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 100px;
+}
+
+.line-right-1{
+    background-color: aliceblue;
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    opacity: 0.8;
+    position:  absolute;
+    margin-left: 0px;
+    margin-top: 200px;
+}
+
+.line-left-2{
+    background-color: aliceblue;
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    opacity: 0.8;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 300px;
+}
+
+.line-right-2{
+    background-color: aliceblue;
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    opacity: 0.8;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 400px;
+}
+
+.dot {
+    background-color: rgb(193, 119, 103);
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -3px;
+    margin-top: 0px;
+}
+
+.left-text-box-1{
+    background-color: aliceblue;
+    opacity: 0.4;
+    width: 300px;
+    height: 100px;
+    position:  absolute;
+    margin-left: -430px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.right-text-box-1{
+    background-color: aliceblue;
+    opacity: 0.4;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 150px;
+    border-radius: 30px;
+}
+
+.left-text-box-2{
+    background-color: aliceblue;
+    opacity: 0.4;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin-left: -430px;
+    margin-top: 250px;
+    border-radius: 30px;
+}
+
+.right-text-box-2{
+    background-color: aliceblue;
+    opacity: 0.4;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 350px;
+    border-radius: 30px;
+}
+
+.left-text-1{
+    position:  absolute;
+    margin-left: -420px;
+    margin-top: 90px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.right-text-1{
+    position:  absolute;
+    margin-left: 180px;
+    margin-top: 190px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.left-text-2{
+    position:  absolute;
+    margin-left: -370px;
+    margin-top: 290px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.right-text-2{
+    position:  absolute;
+    margin-left: 135px;
+    margin-top: 390px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.two{
+    position: absolute;
+    margin-top: 96px;;
+}
+
+.third{
+    position: absolute;
+    margin-top: 196px;;
+}
+
+.four{
+    position: absolute;
+    margin-top: 296px;;
+}
+
+.five{
+    position: absolute;
+    margin-top: 396px;;
+}
+
+.six{
+    position: absolute;
+    margin-top: 496px;;
+}
+
+.instruction-container{
+    padding: 30px;
+    position: absolute;
+    margin-top: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
